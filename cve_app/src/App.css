@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  background-color: #282c34;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+.App {
+  text-align: center;
+}
+
+.file-upload-container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-right: 5px; /* Adjust as needed */
+}
+
+.video-container {
+  margin-top: 20px; /* Adjust as needed */
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.video-section {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+}
+
+.video-container {
+  margin-top: 20px; /* Adjust as needed */
+  width: 50%; /* Set the width of the video container */
+}
+
+.video-container video {
+  width: 100%; /* Ensure the video fills the container */
+  max-width: 100%; /* Ensure the video does not exceed its container's width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Set maximum height for smaller videos */
+}
+
+.preview-window {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  pointer-events: none; 
+}
+
+header {
+  font-size: 60px; 
+  color: #333; 
+  text-align: center; 
+  font-weight: bold; 
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.distance-button {
+  display: flex;
+  justify-content: center;
+}
+
+
+.file-upload-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+input[type="file"] {
+  margin-right: 5px;
+}
+
+.video-container {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.instructions {
+  text-align: center; 
+  font-size: 24px; 
+}

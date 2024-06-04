@@ -1,0 +1,37 @@
+  
+  .App-header2 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 80px; 
+    font-size: 40px;
+  }
+  
+  tbody {
+    background-color: #f0f0f0; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
+    font-size: 30px;
+  }
+  
+
+  tbody tr {
+    border-bottom: 1px solid #ddd; 
+  }
+  
+
+  tbody td {
+    padding: 8px;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table {
+    width: 50%; 
+  }
+  
+  td {
+    width: 150px; 
+  }

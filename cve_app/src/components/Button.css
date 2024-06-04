@@ -1,0 +1,28 @@
+
+
+.my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(to right, rgb(145, 129, 235) 50%, #ffffff 50%);
+    background-size: 200% 100%; 
+    background-position: right; 
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-position 1s ease; 
+}
+
+.my-button:hover {
+    background-position: left; 
+}
+
+.cool-button {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    transition: 0.3s; 
+}
+
+.cool-button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+}
